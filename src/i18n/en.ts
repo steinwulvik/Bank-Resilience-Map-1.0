@@ -15,11 +15,6 @@ const en: Messages = {
     bannerLabel: 'About the demo',
     synthetic: 'Synthetic data',
     author: 'Independent concept demo made by Stein Wulvik.',
-    contactLabel: 'Contact',
-    contactEmail: 'stein.wulvik@gmail.com',
-    contactPhone: '+47 928 80 965',
-    contactLinkedIn: 'https://www.linkedin.com/in/steinwulvik/',
-    linkedInLabel: 'LinkedIn',
     disclaimer:
       'Bank Resilience Map is an independent concept demo. It is not a commercial product, was not commissioned by any bank or supplier and has no integrations with real systems. Morild Bank and all systems, suppliers, people and incidents are fictional.',
     noAdvice:

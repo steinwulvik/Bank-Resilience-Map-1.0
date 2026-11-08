@@ -115,17 +115,10 @@ export default function App() {
         )}
         {page}
       </main>
-      {/* Bunnteksten (forfatter og kontakt) vises bare på «Om demoen». Banneret øverst merker konseptet på alle sider. */}
+      {/* Bunnteksten (forfatter) vises bare på «Om demoen». Banneret øverst merker konseptet på alle sider. */}
       {route.name === 'about' && (
         <footer className="footer">
-          <p>
-            {m.concept.author}
-          </p>
-          <p>
-            {m.concept.contactLabel}: <a href={`mailto:${m.concept.contactEmail}`}>{m.concept.contactEmail}</a> ·{' '}
-            <a href={`tel:${m.concept.contactPhone.replace(/\s/g, '')}`}>{m.concept.contactPhone}</a> ·{' '}
-            <a href={m.concept.contactLinkedIn} rel="noopener noreferrer" target="_blank">{m.concept.linkedInLabel}</a>
-          </p>
+          <p>{m.concept.author}</p>
         </footer>
       )}
       <div className="sr-only" role="status" aria-live="polite">
